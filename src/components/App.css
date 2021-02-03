@@ -1,0 +1,233 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #09d3ac;
+  }
+
+
+
+  .makeStyles-drawerOpen-7 {
+    width: 240px;
+    transition: width 225ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+    background-color:#382F9C !important
+}
+
+.makeStyles-drawerClose-8 {
+  width: 73px;
+  background-color: #382F9C !important;
+}
+
+.MuiTypography-body1 {
+  font-size: 1rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+}
+
+.MuiDivider-root {
+  border: none;
+  height: 1px;
+  margin: 0;
+  flex-shrink: 0;
+  background-color: rgba(0, 0, 0, 0.12);
+}
+
+.MuiDivider-root {
+  border: none;
+  height: 2px !important;
+  margin: 0px 0px 0px 18px !important;
+  flex-shrink: 0;
+  background-color:rgba(255, 255, 255, 0.12);
+  width: 25px !important;
+}
+
+.makeStyles-appBarShift-3 {
+  width: calc(100% - 240px);
+  transition: width 225ms cubic-bezier(0.4, 0, 0.6, 1) 0ms,margin 225ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+  margin-left: 240px;
+  background-color: white !important
+}
+
+
+/* Header */
+
+.MuiTypography-h6 {
+  font-size: 1.25rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.0075em;
+  color: black
+}
+
+
+
+/* Button */
+
+/* .content-Button{
+  background-color: #E9E8F4 !important;
+  color:#382F9C !important;
+  margin: -31px 0 0 490px !important;
+  float: inline-end !important;
+} */
+
+
+.MuiButton-contained.Home-main{
+  color: #382F9C !important;
+  margin: 0 0 0 690px !important;
+}
+
+.MuiButton-contained.Home-Table{
+  color: #382F9C !important;
+  margin: 0 0 0 490px !important;
+}
+
+/* Dashboard */
+
+.dashboard-container{
+  height:300px;
+  background-color:rgb(255, 255, 255);
+  /* border:2px solid rgb(224, 214, 214); */
+  font-weight: bold;
+}
+
+
+/* Table */
+.MuiTableContainer-root {
+  width: 102% !important;
+  overflow-x: auto;
+  height: 275px !important;
+}
+
+
+.WithStyles\(ForwardRef\(TableCell\)\)-head-12 {
+  color: #fff;
+  background-color: rgb(255, 255, 255) !important ;
+  color:black!important;
+  font-weight: bold;
+  font-size:12px !important;
+  position: sticky !important;
+}
+
+.WithStyles\(ForwardRef\(TableCell\)\)-body-13 {
+  font-size: 12px !important;
+}
+
+/* TransperantButton */
+
+.MuiButton-outlinedPrimary {
+  border: 1px solid #3f51b5;
+  background-color: rgba(63, 81, 181, 0.04);
+  width: 250px !important;
+  margin: 8px 0 0 50px !important;
+}
+
+.transparent-buttonimage{
+  padding: 0px 10px 0 0px;
+}
+
+/* ViewButton */
+
+.view-Button{
+  width: 10px !important;
+  height: 25px;
+}
+
+/* screenshot */
+
+.screenshot-devider{
+  width: 300px !important;
+}
+
+/* Record */
+
+.Report-Card{
+  height: 70px;
+  width: 300px;
+  margin: 20px 0 0 25px;
+}
+
+
+
+/* TODO */
+.Todo-Card-Date{
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+.Todo-Card-content{
+  width:600px;
+  margin: -62px 0px 0px 70px;
+  background-color: #FFFFFFFF;
+}
+
+.TimesheetButton{
+
+}
+
+.dot-time{
+  margin: -60px 0 0 660px;
+}
+
+.col-md-8 {
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%;
+  margin: 15px 0 0 0;
+}
+
+.col-md-4 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  margin: 15px 0 0 0;
+}
+
+.add-proj{
+  float: none
+}
+
+
+.Table-main{
+  height: 220px !important;
+  margin: -10px 0 0 0;
+  width: 687px !important;
+}
+
+.timesheet-channel-name{
+
+}
+
+.play-Button{
+  background-color: #3f51b5;
+}
+
+.MuiTypography-displayBlock {
+  display: block;
+  font-size: 12px !important;
+}
+
+
+.MuiDivider-vertical {
+  background-color: rgb(224, 224, 224) !important;
+  margin: 0 0 0 -2px !important;
+  width: 1px !important;
+  height: 620px !important;
+}
